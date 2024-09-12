@@ -118,7 +118,7 @@
 ## 0.0.56
 * **Add `max_characters` param for chunking** This param gives users additional control to "chunk" elements into larger or smaller `CompositeElement`s
 * Bump unstructured to 0.10.28
-* Make sure chipperv2 is called whien `hi_res_model_name==chipper`
+* Make sure chipperv2 is called when `hi_res_model_name==chipper`
 
 
 ## 0.0.55
@@ -160,7 +160,7 @@
 
 ## 0.0.48
 
-* **Adds `languages` kwarg** `ocr_languages` will eventually be deprecated and replaced by `lanugages` to specify what languages to use for OCR
+* **Adds `languages` kwarg** `ocr_languages` will eventually be deprecated and replaced by `languages` to specify what languages to use for OCR
 * Adds a startup log and other minor cleanups
 
 ## 0.0.47
@@ -211,7 +211,7 @@
 
 ## 0.0.39
 
-* Fix wrong handleing on param skip_infer_table_types
+* Fix incorrect handling on param skip_infer_table_types
 * Pin `safetensors` to fix a build error with 0.0.38
 
 ## 0.0.38
